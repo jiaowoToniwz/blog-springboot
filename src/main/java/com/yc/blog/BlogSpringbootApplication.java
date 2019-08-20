@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 
 @SpringBootApplication
 @Controller
-@MapperScan("com.yc")
+@MapperScan("com.yc.blog.dao")
 public class BlogSpringbootApplication {
 
 	public static void main(String[] args) {
